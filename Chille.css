@@ -1,0 +1,63 @@
+h1 {
+    text-align: center;
+    padding: 10px,10px;
+    box-shadow: rgba(80, 71, 54, 0.877) 10px 10px 10px;
+    border-radius: 20px;
+    color: rgb(252, 241, 88);
+    background-image: url('/PIC/bg.jpg'); height: 150px;
+    font-size: 100px;
+    
+          
+}
+body {
+    background-color: rgba(230, 149, 73, 0.74);
+    font: "Arial Black", Gadget, Sans-Serif;
+   margin: 2em;
+        
+}
+h2 {
+    color: rgb(40, 46, 48);
+  
+}
+h3 {
+    color: rgb(0, 0, 0);
+    background-color: rgba(118, 216, 203, 0.795);
+    padding: 10px;
+    box-shadow: rgba(38, 58, 59, 0.623) 10px 10px 10px;
+    border-radius: 10px;
+    text-align: right;
+    margin-top: 2em;
+    
+}
+table {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    border: solid 1px 230, 149, 73, 0.856;
+ 
+    
+}
+
+th,td,tr {
+    border: solid 2px rgb(118, 216, 203, 0.795);
+    color: rgb(0, 0, 0);
+}
+ol {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(8, 8, 8);
+    font-weight: 900;
+    margin-left: -1em;
+   
+    
+    
+}
+footer {
+    text-align: right;
+}
+
+img {
+    border-radius: 20px;
+    
+}
