@@ -1,4 +1,5 @@
 h1 {
+    text-shadow:  rgba(25, 33, 34, 0.623) .5px .5px 5px;
     text-align: center;
     padding: 10px,10px;
     box-shadow: rgba(80, 71, 54, 0.877) 10px 10px 10px;
@@ -6,14 +7,15 @@ h1 {
     color: rgb(252, 241, 88);
     background-image: url('/PIC/bg.jpg'); height: 150px;
     font-size: 100px;
+  
     
           
 }
 body {
-    background-color: rgba(230, 149, 73, 0.74);
+    background-color: rgba(230, 149, 73, 0.795);
     font: "Arial Black", Gadget, Sans-Serif;
-   margin: 2em;
-        
+    margin: 2em;
+       
 }
 h2 {
     color: rgb(40, 46, 48);
@@ -21,7 +23,7 @@ h2 {
 }
 h3 {
     color: rgb(0, 0, 0);
-    background-color: rgba(118, 216, 203, 0.795);
+    background-color: rgba(118, 216, 203, 0.637);
     padding: 10px;
     box-shadow: rgba(38, 58, 59, 0.623) 10px 10px 10px;
     border-radius: 10px;
@@ -34,13 +36,13 @@ table {
     margin-right: auto;
     margin-left: auto;
     font-size: 20px;
-    border: solid 1px 230, 149, 73, 0.856;
+    border: solid 1px 230, 149, 73, 0.656;
  
     
 }
 
 th,td,tr {
-    border: solid 2px rgb(118, 216, 203, 0.795);
+    border: solid 2px rgba(118, 216, 203, 0.63);
     color: rgb(0, 0, 0);
 }
 ol {
