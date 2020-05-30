@@ -2,7 +2,7 @@
 @import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
 
 h1 {
-    text-shadow:  rgba(25, 33, 34, 0.623) .5px .5px 5px;
+    text-shadow:  rgba(25, 33, 34, 0.767) .5px .5px 5px;
     text-align: center;
     padding: 10px,10px;
     box-shadow: rgba(80, 71, 54, 0.877) 10px 10px 10px;
@@ -32,7 +32,7 @@ h2 {
 }
 h3 {
     color: rgb(0, 0, 0);
-   background-color: rgba(110, 196, 218, 0.801);
+   background-color: rgba(90, 185, 209, 0.897);
     padding: 10px;
     box-shadow: rgba(38, 58, 59, 0.623) 10px 10px 10px;
     border-radius: 10px;
@@ -51,7 +51,7 @@ table {
 }
 
 th,td,tr {
-    border: solid 2px rgba(118, 216, 203, 0.63);
+    border: solid 2.5px rgba(90, 185, 209, 0.986);
     color: rgb(0, 0, 0);
 }
 ol {
@@ -70,10 +70,10 @@ footer {
 
 .card-body
 {
-    background-color: rgba(89, 154, 170, 0.712);
+    background-color: rgba(101, 186, 207, 0.842);
 }
  .btn-group {
-     background-color: #f12d40;
+     background-color: #d8391d;
      color: white;
      font-weight: bold;
      border-radius: 20px;
@@ -85,10 +85,7 @@ footer {
 .row {
     border-radius: 20px;
 }
-.card  {
-  
-    border-radius: 20px;
-}
+
 .ion-social-reddit-outline {
     border-radius: 50%;
     background-color: rgba(102, 150, 197, 0.856);
@@ -99,4 +96,53 @@ footer {
 }
 .d-flex justify-content-between align-items-center {
     color: white;
+    
 }
+.btn-outline-secondary {
+    color: #ececcafd;
+    border-color: #6c757d00;
+}
+.text-muted {
+    color: rgb(0, 0, 0)!important;
+}
+
+
+.btn-outline-secondary:not(:disabled):not(.disabled).active, .btn-outline-secondary:not(:disabled):not(.disabled):active, .show>.btn-outline-secondary.dropdown-toggle {
+    color: rgb(0, 0, 0);
+    background-color: #d33b3b;
+    border-color: #14161800;
+}
+.btn {
+    border-radius: 20px;
+    
+}
+.btn-outline-secondary:hover {
+    color: #fff;
+    background-color: #6567e6;
+    border-color: #6c757d00;
+}
+/* .col-md-4 {
+    border-radius: 20px;
+    border: .01px;
+    box-shadow: rgba(38, 58, 59, 0.623) 10px 10px 10px;
+} */
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    
+} 
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgba(230, 149, 73, 0.795);
+    background-clip: border-box;
+    border: .1px solid rgba(0, 0, 0, 0);
+    /* border-radius: 20px; */
+}
+/* .card mb-4 shadow-sm {
+    border-radius: 20px;
+} */
