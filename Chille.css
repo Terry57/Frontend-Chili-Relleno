@@ -9,46 +9,36 @@ h1 {
     border-radius: 20px;
     color: rgb(252, 241, 88);
     background-image: url('/PIC/bg.jpg'); height: 150px;
-    font-size: 120px;
-                     
+    font-size: 120px;                     
 }
-
 body {
-    background-color: rgba(230, 149, 73, 0.795);
+    background-image: linear-gradient(to right,rgb(230, 149, 73) 0%,rgb(68, 147, 167) 100%);
     font-family: 'Jua', sans-serif;
     margin: 2em;
-    font-weight: bold,100em;
-    
-       
-}
+    font-weight: bold,100em;    
+       }
 .album {
     padding: 1em;
 }
 h2 {
-    color: rgb(40, 46, 48);
-   
-  
-}
+    color: rgb(40, 46, 48);   
+  }
 h3 {
     color: rgb(0, 0, 0);
-   background-color: rgba(90, 185, 209, 0.897);
+    background-image: linear-gradient(to right,rgb(68, 147, 167) 0%,rgb(230, 149, 73) 100%); 
     padding: 10px;
     box-shadow: rgba(38, 58, 59, 0.623) 10px 10px 10px;
     border-radius: 10px;
     text-align: center;
-    margin-top: 2em,2em;
-    
-}
+    margin-top: 2em,2em;    
+}  
 table {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
     font-size: 20px;
-    border: solid 1px 230, 149, 73, 0.656;
- 
-    
-}
-
+    border: solid 1px 230, 149, 73, 0.656; 
+    }
 th,td,tr {
     border: solid 2.5px rgba(90, 185, 209, 0.986);
     color: rgb(0, 0, 0);
@@ -58,24 +48,18 @@ ol {
     text-align: center;
     color: rgb(8, 8, 8);
     font-weight: 900;
-    margin-left: -1em;
-   
-    
-    
-}
+    margin-left: -1em;       
+    }   
 footer {
     text-align: right;
 }
-
 .card-body
 {
-    background-color: rgba(101, 186, 207, 0.842);
-    
+    background-color: rgba(101, 186, 207, 0.842);    
 }
  .btn-group {
-     background-color: #d8391d;
-     color: white;
-     font-weight: bold;
+     background-color: #c44a1a;
+     color: white;     
      border-radius: 20px;
  }
  .container {
@@ -85,7 +69,6 @@ footer {
 .row {
     border-radius: 20px;
 }
-
 .ion-social-reddit-outline {
     border-radius: 50%;
     background-color: rgba(102, 150, 197, 0.856);
@@ -105,8 +88,6 @@ footer {
 .text-muted {
     color: rgb(0, 0, 0)!important;
 }
-
-
 .btn-outline-secondary:not(:disabled):not(.disabled).active, .btn-outline-secondary:not(:disabled):not(.disabled):active, .show>.btn-outline-secondary.dropdown-toggle {
     color: rgb(0, 0, 0);
     background-color: #d33b3b;
@@ -117,14 +98,13 @@ footer {
     
 }
 .btn-outline-secondary:hover {
-    color: #fff;
-    background-color: #6567e6;
-    border-color: #6c757d00;
+    color: rgb(24, 16, 16);
+    background-color: #e99240;
+    border-color: #16191bc4;
 }
 
 .shadow-sm {
-    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
-    
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;    
 } 
 .card {
     position: relative;
