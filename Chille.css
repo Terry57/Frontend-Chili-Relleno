@@ -55,7 +55,8 @@ footer {
 }
 .card-body
 {
-    background-color: rgba(101, 186, 207, 0.842);    
+    background-color: rgba(85, 168, 189, 0.884);    
+    border-radius: 20px;
 }
  .btn-group {
      background-color: #c44a1a;
@@ -114,10 +115,11 @@ footer {
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: rgba(230, 149, 73, 0.795);
+    background-color: rgba(230, 149, 73, 0);
     background-clip: border-box;
     border: .1px solid rgba(0, 0, 0, 0);
     border-radius: 20px;
+    box-shadow: rgba(38, 58, 59, 0.623) 10px 10px 10px;
 }
 a {
     border-radius: 20px;
